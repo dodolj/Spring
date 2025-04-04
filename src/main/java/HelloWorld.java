@@ -1,13 +1,13 @@
+import lombok.Data;
+import lombok.extern.slf4j.Slf4j;
+
+@Data
+@Slf4j
 public class HelloWorld {
- 
     private String message;
- 
-    public String getMessage() {
-        return message;
+    private int power;
+
+    public void printInfo() {
+        log.info("Message: {}, Counter: {}", message, power);
     }
- 
-    public void setMessage(String message) {
-        this.message = message;
-    }
-     
 }

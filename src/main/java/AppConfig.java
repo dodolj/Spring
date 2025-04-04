@@ -4,6 +4,7 @@ import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class AppConfig {
+
     @Bean
     public HelloWorld helloWorld() {
         return new HelloWorld();

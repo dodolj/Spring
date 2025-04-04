@@ -43,7 +43,7 @@ logs/
 ### System ###
 Thumbs.db
 
-### Your custom ignores (из вашего сообщения) ###
+### Cstom ignores ###
 /shelf/
 /workspace.xml
 /httpRequests/
